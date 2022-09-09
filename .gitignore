@@ -9,8 +9,13 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
+<<<<<<< HEAD
 #dist
 #dist-ssr
+=======
+dist
+dist-ssr
+>>>>>>> df13b6ccea9db4195fe289d3222a1c864ed2b29a
 coverage
 *.local
 
@@ -26,6 +31,9 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 # misc 
 package-lock.json
+=======
+>>>>>>> df13b6ccea9db4195fe289d3222a1c864ed2b29a
