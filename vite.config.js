@@ -1,3 +1,4 @@
+//reference https://learnvue.co/tutorials/deploy-vue-to-github-pages
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
