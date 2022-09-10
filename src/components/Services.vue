@@ -12,20 +12,21 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Project Management</template>
 
-    Vue’s
+    <!-- Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    provides you with all information you need to get started. -->
   </WelcomeItem>
 
   <WelcomeItem>
+
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Mobile Applications</template>
 
-    This project is served and bundled with
+    <!-- This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
     recommended IDE setup is
     <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
@@ -36,32 +37,45 @@ import SupportIcon from './icons/IconSupport.vue'
 
     <br />
 
-    More instructions are available in <code>README.md</code>.
+    More instructions are available in <code>README.md</code>. -->
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Mobile Blockchain</template>
 
-    Get official tools and libraries for your project:
+    
+    <!-- Get official tools and libraries for your project:
     <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
     <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
     <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
     <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
     you need more resources, we suggest paying
     <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    a visit. -->
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>Web Applications</template>
 
-    Got stuck? Ask your question on
+    <!-- <b>Learn to Earn</b>
+    <p>
+    We offer a free live front end web development course. We emphasize javascript mastery. 
+    At the end of the course you will be able to work anywhere as a front end developer. We 
+    hire directly from our graduate pool. 
+    </p>
+    <b>Remote Environment</b>
+    <p>
+    We utilize Agile project management techniques along with an asyncronous workflow
+    to maximize freedom and productivity for our teams.
+    </p> -->
+
+    <!-- Got stuck? Ask your question on
     <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
     Discord server, or
     <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
@@ -70,10 +84,10 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
     the official
     <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    twitter account for latest news in the Vue world. -->
   </WelcomeItem>
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
@@ -82,5 +96,11 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>
+
+<style scoped>
+  b {
+    color: var(--color-heading),
+  }
+</style>
