@@ -63,7 +63,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Web Applications</template>
 
-    <!-- <b>Learn to Earn</b>
+    <!-- <template #b>Learn to Earn</template>
     <p>
     We offer a free live front end web development course. We emphasize javascript mastery. 
     At the end of the course you will be able to work anywhere as a front end developer. We 
