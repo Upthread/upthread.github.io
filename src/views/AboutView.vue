@@ -28,9 +28,9 @@
     flex-direction: column;
   }
   .about {
-    /* max-height: 50vh; */
-    /* display: flex;
-    align-items: center; */
+    max-height: 50vh;
+    display: flex;
+    align-items: center;
   }
 }
 </style>
